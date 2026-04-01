@@ -1,0 +1,25 @@
+{
+  "final_model": "StackingRegressor",
+  "timestamp": "2026-03-31T07:10:54.448595Z",
+  "dataset_hash": "17a945b90f2cc750fa4da7f45101e8f7",
+  "data_stats": {
+    "data_nrows": 50135,
+    "train_rows": 40108,
+    "test_rows": 10027
+  },
+  "final_metrics": {
+    "mae": 58.53126504488121,
+    "rmse": 71.74141890293012,
+    "r2": 0.17952217180082342,
+    "mape": 0.10559253207554638
+  },
+  "residual_interval_5_95": [
+    -135.7233041740602,
+    95.18274908594546
+  ],
+  "cv_results": {
+    "rf_mae": 60.215888942685076,
+    "xgb_mae": 59.110642908434336,
+    "stacking_mae": 58.53126504488121
+  }
+}

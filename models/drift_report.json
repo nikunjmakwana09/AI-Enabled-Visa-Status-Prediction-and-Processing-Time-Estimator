@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-03-31T07:10:55.058963Z",
+  "dataset_hash": "17a945b90f2cc750fa4da7f45101e8f7",
+  "drift_metrics": {
+    "fiscal_year": {
+      "ks_statistic": 0.7332701705395432,
+      "ks_pvalue": 0.0,
+      "train_mean": -0.17397003770727806,
+      "test_mean": 0.6958801508293025
+    },
+    "application_month": {
+      "ks_statistic": 0.5380722050463749,
+      "ks_pvalue": 0.0,
+      "train_mean": -0.22021383739935793,
+      "test_mean": 0.8808553495974315
+    },
+    "application_quarter": {
+      "ks_statistic": 0.0,
+      "ks_pvalue": 1.0,
+      "train_mean": 0.0,
+      "test_mean": 0.0
+    },
+    "application_year": {
+      "ks_statistic": 0.7332701705395432,
+      "ks_pvalue": 0.0,
+      "train_mean": -0.17397003770727806,
+      "test_mean": 0.6958801508293025
+    },
+    "region_avg_time": {
+      "ks_statistic": 0.19083474618529966,
+      "ks_pvalue": 2.5374389984457447e-256,
+      "train_mean": 0.0406390626783611,
+      "test_mean": -0.16255625071352214
+    },
+    "office_avg_time": {
+      "ks_statistic": 0.15109205146105514,
+      "ks_pvalue": 2.3847902155920492e-160,
+      "train_mean": 0.05925514498877225,
+      "test_mean": -0.23702057995507697
+    },
+    "office_volume": {
+      "ks_statistic": 0.1332901166849506,
+      "ks_pvalue": 9.55384723431443e-125,
+      "train_mean": 0.04102388920733786,
+      "test_mean": -0.16409555682935162
+    },
+    "season_index": {
+      "ks_statistic": 0.0,
+      "ks_pvalue": 1.0,
+      "train_mean": 0.0,
+      "test_mean": 0.0
+    },
+    "office_pressure": {
+      "ks_statistic": 0.1332901166849506,
+      "ks_pvalue": 9.55384723431443e-125,
+      "train_mean": 0.03858083086537651,
+      "test_mean": -0.15432332346150635
+    },
+    "office_rolling_30_mean": {
+      "ks_statistic": 0.22900668195871154,
+      "ks_pvalue": 0.0,
+      "train_mean": 0.1049728030654548,
+      "test_mean": -0.4198912122618199
+    },
+    "office_rolling_30_std": {
+      "ks_statistic": 0.38376383763837635,
+      "ks_pvalue": 0.0,
+      "train_mean": -0.16412946519714852,
+      "test_mean": 0.6565178607885953
+    },
+    "region_rolling_30_mean": {
+      "ks_statistic": 0.3383614241547821,
+      "ks_pvalue": 0.0,
+      "train_mean": 0.11601752539369024,
+      "test_mean": -0.4640701015747616
+    },
+    "region_rolling_30_std": {
+      "ks_statistic": 0.3866061633589309,
+      "ks_pvalue": 0.0,
+      "train_mean": -0.1719535685861481,
+      "test_mean": 0.6878142743445919
+    },
+    "office_mom_diff": {
+      "ks_statistic": 0.2210032911139922,
+      "ks_pvalue": 0.0,
+      "train_mean": 0.015169060361771267,
+      "test_mean": -0.06067624144708527
+    }
+  }
+}
